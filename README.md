@@ -13,10 +13,10 @@ Let's take VGG-16 as an example to decipher its network structure：
 
 ## Dataset
 
-The same dataset as AlexNet-demo is used.The dataset uses more than 4000 images in 5 categories, you can download it [here](https://drive.google.com/drive/folders/1z2d7UejBR55QY8dc2GOmSkyfi8C-vUBs).
+The same dataset as [AlexNet-dem](https://github.com/Hjxin02AIsharing-Wust/AlexNet-demo) is used.The dataset uses more than 4000 images in 5 categories, you can download it [here](https://drive.google.com/drive/folders/1z2d7UejBR55QY8dc2GOmSkyfi8C-vUBs).
 
 ## Data Preprocess
-You need to change the `root_file` parameter in the  `Data_Preprocess.py` file to the address of the dataset you downloaded. We follow the training set: validation set ratio of 9 to 1. You can also change this ratio, just change the `split_rate parameter`. Also we follow the data enhancement operation of the AlexNet paper, cropping the image to 224x224 at random and flipping it horizontally.
+You need to change the `root_file` parameter in the  `Data_Preprocess.py` file to the address of the dataset you downloaded. We follow the training set: validation set ratio of 9 to 1. You can also change this ratio, just change the `split_rate parameter`. Also we follow the data enhancement operation of the VGG paper, cropping the image to 224x224 at random and flipping it horizontally.
 
 ## Usage
 
@@ -33,7 +33,6 @@ We provide the test code：
 ```shell
 python test.py
 ```
-You can use our provided model weights [`AlexNet.pth`](https://drive.google.com/drive/folders/1uGx3-N93r2uie8_elHj_TqGk5muBhpkx) and test image `roseflower.png`, of course, you can also use your own.
-This is our test result.
+You can use our provided model weights [`VGG16.pth`](https://drive.google.com/drive/folders/1XOtcJu1q0rMejKc20wuYNi22-V7opl9c) and test image `roseflower.png`, of course, you can also use your own.
 
 
