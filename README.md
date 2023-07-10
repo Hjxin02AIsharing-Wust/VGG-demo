@@ -1,5 +1,5 @@
 # VGG-demo
-This is our demo to reproduce VGG on pytorch, the dataset uses more than 4000 images in 5 categories.Here's [my blog] on some interpretations of the VGG paper.The VGG paper《[Very Deep Convolutional Networks for Large-Scale Image Recognition](https://arxiv.org/pdf/1409.1556.pdf)》.
+This is our demo to reproduce VGG on pytorch, the dataset uses more than 4000 images in 5 categories.Here's [my blog](https://www.cnblogs.com/Hjxin02AIsharing-Wust/p/17535473.html) on some interpretations of the VGG paper.The VGG paper《[Very Deep Convolutional Networks for Large-Scale Image Recognition](https://arxiv.org/pdf/1409.1556.pdf)》.
 
 These are the six different network structures of VGG given by the authors in the paper:：
 ![image](https://img2023.cnblogs.com/blog/3233343/202307/3233343-20230707164745328-1069969601.png)
